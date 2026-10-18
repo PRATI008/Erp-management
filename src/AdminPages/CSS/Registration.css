@@ -1,0 +1,405 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.erp-student-registraion-form {
+  width: 95%;
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 20px auto;
+  padding-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(30, 58, 95, 0.08);
+}
+
+.registration-main-heading {
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: navy;
+  background: url('https://i.pinimg.com/736x/ba/32/eb/ba32ebf387cc1f74a58a90f274c17c7f.jpg');
+  text-shadow: 0 2px 5px rgba(175, 189, 195, 0.8);
+  border-radius: 15px 15px 0 0;
+  border-bottom: 1px solid #dbe4f0;
+}
+
+.registration-info {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin: 18px 22px 25px;
+  padding: 0;
+}
+
+.registration-info span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.registration-info span:nth-child(odd) {
+  display: none;
+}
+
+.registration-info span:nth-child(even) {
+  display: block;
+  background: #f3f5fa;
+  border: 1px solid #e1e7f0;
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.registration-info span:nth-child(2)::before {
+  content: "Admission Date";
+  display: block;
+  margin-bottom: 7px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.registration-info span:nth-child(4)::before {
+  content: "Registration Number";
+  display: block;
+  margin-bottom: 7px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.registration-info span:nth-child(6)::before {
+  content: "Session";
+  display: block;
+  margin-bottom: 7px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.registration-container {
+  padding: 0 24px;
+}
+
+.registration-form-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 22px;
+  width: 100%;
+  align-items: end;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.form-1 label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-1 input {
+  width: 100%;
+  min-width: 0;
+  height: 43px;
+  padding: 10px 12px;
+  color: #1e293b;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-1 input:focus {
+  border-color: #526da8;
+  box-shadow: 0 0 0 3px rgba(82, 109, 168, 0.10);
+}
+
+.form-1 input[type="file"] {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.registration-form-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 22px;
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+}
+
+.form-2 label {
+  margin: 0 0 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-2 input {
+  width: 100%;
+  height: 43px;
+  padding: 10px 12px;
+  color: #1e293b;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-2 input:focus {
+  border-color: #526da8;
+  box-shadow: 0 0 0 3px rgba(82, 109, 168, 0.10);
+}
+
+.erp-student-registraion-form input:not([type="radio"]):not([type="file"]),
+.erp-student-registraion-form select {
+  font-family: inherit;
+}
+
+.erp-student-registraion-form input:not([type="radio"]):not([type="file"]),
+.erp-student-registraion-form select {
+  max-width: 100%;
+}
+
+.erp-student-registraion-form > .registration-container > label {
+  display: block;
+  margin: 17px 0 7px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.erp-student-registraion-form > .registration-container > input:not([type="radio"]) {
+  display: block;
+  width: 100%;
+  height: 43px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.erp-student-registraion-form > .registration-container > input:focus {
+  border-color: #526da8;
+  box-shadow: 0 0 0 3px rgba(82, 109, 168, 0.10);
+}
+
+.registration-container > select {
+  display: block;
+  width: 100%;
+  height: 43px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  color: #334155;
+  font-size: 14px;
+}
+
+.form-3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 14px 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.form-3 label:first-child {
+  margin-right: 15px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-3 label:not(:first-child) {
+  color: #475569;
+  font-size: 14px;
+}
+
+.form-3 input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin-left: -6px;
+  accent-color: navy;
+  cursor: pointer;
+}
+
+.registration-container h2 {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  padding: 12px 15px;
+  color: navy;
+  background: #f3f5fa;
+  border-left: 4px solid navy;
+  border-radius: 4px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.registration-container h2 ~ label {
+  display: block;
+  margin: 15px 0 7px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.registration-container h2 ~ input:not([type="radio"]) {
+  display: block;
+  width: 100%;
+  height: 43px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.registration-container h2 ~ input:focus {
+  border-color: #526da8;
+  box-shadow: 0 0 0 3px rgba(82, 109, 168, 0.10);
+}
+
+.erp-student-registraion-form input::placeholder {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.erp-student-registraion-form input:focus,
+.erp-student-registraion-form select:focus {
+  border-color: #526da8;
+}
+
+@media (min-width: 992px) {
+  .registration-container > h2 ~ label,
+  .registration-container > h2 ~ input,
+  .registration-container > h2 ~ select {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .erp-student-registraion-form {
+    width: 97%;
+    margin: 12px auto;
+    border-radius: 12px;
+  }
+
+  .registration-main-heading {
+    padding: 14px;
+    font-size: 24px;
+  }
+
+  .registration-container {
+    padding: 0 16px;
+  }
+
+  .registration-info {
+    gap: 10px;
+    margin: 15px 16px 22px;
+  }
+
+  .registration-info span:nth-child(even) {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .registration-info span:nth-child(even)::before {
+    font-size: 11px;
+  }
+
+  .registration-form-1 {
+    gap: 14px;
+  }
+
+  .registration-form-2 {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .registration-main-heading {
+    font-size: 21px;
+  }
+
+  .registration-info {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .registration-info span:nth-child(even) {
+    padding: 10px 12px;
+  }
+
+  .registration-form-1,
+  .registration-form-2 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .form-1 input,
+  .form-2 input {
+    height: 42px;
+  }
+
+  .form-3 {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .form-3 label:first-child {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .registration-container h2 {
+    font-size: 17px;
+    margin-top: 24px;
+  }
+}
+
+.registration-submit{
+  width: 100%;
+  height: 40px;
+  background-color: #425f9e;;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  
+}

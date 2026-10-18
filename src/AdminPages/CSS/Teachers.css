@@ -1,0 +1,105 @@
+.all-teacher-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:6px 20px;
+    background-color:white;
+    box-shadow: 0px 0px 6px rgba(170, 162,162,0.8);
+    border-radius: 5px;
+    border: 1px solid rgb(214, 212, 212);
+}
+.all-teacher-header h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.add-create-teacher{
+    background-color:#0B3D91;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.teacher-modal-close{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.teacher-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.teacher-input-section{
+    /* display: flex;
+    gap: 20px;
+    flex-direction: column; */
+
+}
+.teacher-input-section input{
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.teacher-body button{
+    margin-top: 20px;
+    padding: 6px;
+    border: none;
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+    width: 86%;
+    margin-bottom: 10px;
+}
+.teacher-body button:hover{
+    background-color: #172b4d;
+}
+.teacher-table{
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.teacher-edit-delete-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.teacher-edit-btn{
+    padding: 10px 10px;
+    border: none;
+    background-color: #172b4d;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teacher-delete-btn
+{
+    padding: 10px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

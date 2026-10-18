@@ -1,0 +1,212 @@
+[
+  {
+    "_id": 1,
+    "class": "LKG",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "RD Sharma", "Mobile": "8348393453"},
+      {"subject": "Mathematics", "teacher": "Chaya Singh", "Mobile": "9348993453"},
+      {"subject": "English", "teacher": "Anurag Shrivastav", "Mobile": "8348749354"},
+      {"subject": "EVS", "teacher": "Poonam Tiwari", "Mobile": "8568393490"},
+      {"subject": "Drawing", "teacher": "Ved Prakash", "Mobile": "9148893453"},
+      {"subject": "Rhymes", "teacher": "Neha Verma", "Mobile": "9000000001"},
+      {"subject": "Computer", "teacher": "RK Mishra", "Mobile": "9348392353"},
+      {"subject": "GK", "teacher": "Vinod Mishra", "Mobile": "8348398906"},
+      {"subject": "Music", "teacher": "Ritu Singh", "Mobile": "9000000002"},
+      {"subject": "Games", "teacher": "Yogesh Pal", "Mobile": "8348398974"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1000, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 600, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 200, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 2,
+    "class": "UKG",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Sharda Mishra", "Mobile": "8348393478"},
+      {"subject": "Mathematics", "teacher": "Vikash Tiwari", "Mobile": "8348349375"},
+      {"subject": "English", "teacher": "Pooja Singh", "Mobile": "9000000003"},
+      {"subject": "EVS", "teacher": "Amit Verma", "Mobile": "9000000004"},
+      {"subject": "Drawing", "teacher": "Kavita Sharma", "Mobile": "9000000005"},
+      {"subject": "Rhymes", "teacher": "Nisha Gupta", "Mobile": "9000000006"},
+      {"subject": "Computer", "teacher": "Rahul Mishra", "Mobile": "9000000007"},
+      {"subject": "GK", "teacher": "Sanjay Yadav", "Mobile": "9000000008"},
+      {"subject": "Music", "teacher": "Anjali Singh", "Mobile": "9000000009"},
+      {"subject": "Games", "teacher": "Manoj Kumar", "Mobile": "9000000010"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1200, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 700, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 250, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 3,
+    "class": "1st",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Sunita Verma", "Mobile": "9000000011"},
+      {"subject": "Mathematics", "teacher": "Rajesh Kumar", "Mobile": "9000000012"},
+      {"subject": "English", "teacher": "Priya Sharma", "Mobile": "9000000013"},
+      {"subject": "EVS", "teacher": "Deepak Singh", "Mobile": "9000000014"},
+      {"subject": "Computer", "teacher": "Aakash Gupta", "Mobile": "9000000015"},
+      {"subject": "GK", "teacher": "Meena Tiwari", "Mobile": "9000000016"},
+      {"subject": "Drawing", "teacher": "Rakesh Mishra", "Mobile": "9000000017"},
+      {"subject": "Music", "teacher": "Pallavi Singh", "Mobile": "9000000018"},
+      {"subject": "Games", "teacher": "Arun Yadav", "Mobile": "9000000019"},
+      {"subject": "Moral Science", "teacher": "Suman Gupta", "Mobile": "9000000020"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1500, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 800, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 300, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 4,
+    "class": "2nd",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Mamta Singh", "Mobile": "9000000021"},
+      {"subject": "Mathematics", "teacher": "Rohit Sharma", "Mobile": "9000000022"},
+      {"subject": "English", "teacher": "Neha Mishra", "Mobile": "9000000023"},
+      {"subject": "EVS", "teacher": "Alok Tiwari", "Mobile": "9000000024"},
+      {"subject": "Computer", "teacher": "Nitin Verma", "Mobile": "9000000025"},
+      {"subject": "GK", "teacher": "Seema Yadav", "Mobile": "9000000026"},
+      {"subject": "Drawing", "teacher": "Pankaj Singh", "Mobile": "9000000027"},
+      {"subject": "Music", "teacher": "Swati Gupta", "Mobile": "9000000028"},
+      {"subject": "Games", "teacher": "Dinesh Kumar", "Mobile": "9000000029"},
+      {"subject": "Moral Science", "teacher": "Rekha Sharma", "Mobile": "9000000030"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1500, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 900, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 300, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 5,
+    "class": "3rd",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Ashok Mishra", "Mobile": "9000000031"},
+      {"subject": "Mathematics", "teacher": "Komal Singh", "Mobile": "9000000032"},
+      {"subject": "English", "teacher": "Suresh Yadav", "Mobile": "9000000033"},
+      {"subject": "Science", "teacher": "Priti Verma", "Mobile": "9000000034"},
+      {"subject": "Social Science", "teacher": "Ravi Tiwari", "Mobile": "9000000035"},
+      {"subject": "Computer", "teacher": "Ankit Sharma", "Mobile": "9000000036"},
+      {"subject": "GK", "teacher": "Jyoti Mishra", "Mobile": "9000000037"},
+      {"subject": "Drawing", "teacher": "Vivek Singh", "Mobile": "9000000038"},
+      {"subject": "Music", "teacher": "Kiran Gupta", "Mobile": "9000000039"},
+      {"subject": "Games", "teacher": "Mohan Kumar", "Mobile": "9000000040"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1800, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1000, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 350, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 6,
+    "class": "4th",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Ramesh Tiwari", "Mobile": "9000000041"},
+      {"subject": "Mathematics", "teacher": "Shivani Singh", "Mobile": "9000000042"},
+      {"subject": "English", "teacher": "Amit Sharma", "Mobile": "9000000043"},
+      {"subject": "Science", "teacher": "Nandini Verma", "Mobile": "9000000044"},
+      {"subject": "Social Science", "teacher": "Manish Mishra", "Mobile": "9000000045"},
+      {"subject": "Computer", "teacher": "Deepak Yadav", "Mobile": "9000000046"},
+      {"subject": "GK", "teacher": "Rachna Gupta", "Mobile": "9000000047"},
+      {"subject": "Drawing", "teacher": "Sanjay Singh", "Mobile": "9000000048"},
+      {"subject": "Music", "teacher": "Preeti Sharma", "Mobile": "9000000049"},
+      {"subject": "Games", "teacher": "Vijay Kumar", "Mobile": "9000000050"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 1800, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1100, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 350, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 7,
+    "class": "5th",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Rajendra Singh", "Mobile": "9000000051"},
+      {"subject": "Mathematics", "teacher": "Kusum Tiwari", "Mobile": "9000000052"},
+      {"subject": "English", "teacher": "Mohit Sharma", "Mobile": "9000000053"},
+      {"subject": "Science", "teacher": "Anita Verma", "Mobile": "9000000054"},
+      {"subject": "Social Science", "teacher": "Rakesh Yadav", "Mobile": "9000000055"},
+      {"subject": "Computer", "teacher": "Shubham Mishra", "Mobile": "9000000056"},
+      {"subject": "GK", "teacher": "Poonam Gupta", "Mobile": "9000000057"},
+      {"subject": "Drawing", "teacher": "Kamal Singh", "Mobile": "9000000058"},
+      {"subject": "Music", "teacher": "Sakshi Sharma", "Mobile": "9000000059"},
+      {"subject": "Games", "teacher": "Harish Kumar", "Mobile": "9000000060"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 2000, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1200, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 400, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 8,
+    "class": "6th",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Neelam Mishra", "Mobile": "9000000061"},
+      {"subject": "Mathematics", "teacher": "Abhishek Singh", "Mobile": "9000000062"},
+      {"subject": "English", "teacher": "Shweta Verma", "Mobile": "9000000063"},
+      {"subject": "Science", "teacher": "Rajeev Tiwari", "Mobile": "9000000064"},
+      {"subject": "Social Science", "teacher": "Vandana Sharma", "Mobile": "9000000065"},
+      {"subject": "Computer", "teacher": "Pradeep Yadav", "Mobile": "9000000066"},
+      {"subject": "Sanskrit", "teacher": "Sangeeta Mishra", "Mobile": "9000000067"},
+      {"subject": "GK", "teacher": "Naveen Gupta", "Mobile": "9000000068"},
+      {"subject": "Drawing", "teacher": "Ravi Singh", "Mobile": "9000000069"},
+      {"subject": "Games", "teacher": "Ajay Kumar", "Mobile": "9000000070"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 2200, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1400, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 450, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 9,
+    "class": "7th",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Madhuri Singh", "Mobile": "9000000071"},
+      {"subject": "Mathematics", "teacher": "Vivek Sharma", "Mobile": "9000000072"},
+      {"subject": "English", "teacher": "Renu Verma", "Mobile": "9000000073"},
+      {"subject": "Science", "teacher": "Sanjay Tiwari", "Mobile": "9000000074"},
+      {"subject": "Social Science", "teacher": "Meena Mishra", "Mobile": "9000000075"},
+      {"subject": "Computer", "teacher": "Rahul Singh", "Mobile": "9000000076"},
+      {"subject": "Sanskrit", "teacher": "Kavita Gupta", "Mobile": "9000000077"},
+      {"subject": "GK", "teacher": "Rohit Yadav", "Mobile": "9000000078"},
+      {"subject": "Drawing", "teacher": "Asha Sharma", "Mobile": "9000000079"},
+      {"subject": "Games", "teacher": "Dheeraj Kumar", "Mobile": "9000000080"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 2200, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1500, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 450, "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 10,
+    "class": "8th",
+    "subjects": [
+      {"subject": "Hindi", "teacher": "Usha Mishra", "Mobile": "9000000081"},
+      {"subject": "Mathematics", "teacher": "Vishal Singh", "Mobile": "9000000082"},
+      {"subject": "English", "teacher": "Poonam Sharma", "Mobile": "9000000083"},
+      {"subject": "Science", "teacher": "Ashish Verma", "Mobile": "9000000084"},
+      {"subject": "Social Science", "teacher": "Rakesh Tiwari", "Mobile": "9000000085"},
+      {"subject": "Computer", "teacher": "Nikhil Gupta", "Mobile": "9000000086"},
+      {"subject": "Sanskrit", "teacher": "Rekha Mishra", "Mobile": "9000000087"},
+      {"subject": "GK", "teacher": "Manoj Singh", "Mobile": "9000000088"},
+      {"subject": "Drawing", "teacher": "Kiran Verma", "Mobile": "9000000089"},
+      {"subject": "Games", "teacher": "Suraj Yadav", "Mobile": "9000000090"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": 2500, "PaymentType": "One Time"},
+      {"FeeType": "Tuition Fee", "Amount": 1600, "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": 500, "PaymentType": "One Time"}
+    ]
+  }
+]
